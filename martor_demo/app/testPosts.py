@@ -1,6 +1,7 @@
 from django.test import TestCase
 from .models import Post
 
+
 class PostTestCase(TestCase):
     def testPost(self):
         post = Post(title="My title", description="Blurb", wiki="Post Body")
